@@ -59,21 +59,21 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 - [LCD_I2C:](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004) Entradas analógicas A5 e A4 do arduino, respectivamente para os pinos SCL e SDA.
 - [1º Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 13 e 12 do arduino, respectivamente para os pinos trigger e echo.
 - [2º Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 11 e 10 do arduino, respectivamente para os pinos trigger e echo.
-- [LEDbar:](https://docs.wokwi.com/pt-BR/parts/wokwi-led-bar-graph) Entradas digitais 9, 8, 7, 6, 5, 4, 3 e 2, e entradas analógicas A3 e A2 do arduino, respectivamente para os pinos Ânodos da LEDbar do 10 ao 1;
+- [LEDbar:](https://docs.wokwi.com/pt-BR/parts/wokwi-led-bar-graph) Entradas digitais 9, 8, 7, 6, 5, 4, 3 e 2, e entradas analógicas A3 e A2 do arduino, respectivamente para os pinos Ânodos da LEDbar do 10 ao 1.
 
 ## 📒 Instruções de Uso
 
 ### 🖥️ Simulador
-- Abrir o [projeto no Wokwi](https://wokwi.com/projects/399769764705866753)
-- Iniciar a simulação no botão 'Start the simulation'
-- Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade
-- Observar os dados apresentados no LCD_I2C
+- Abrir o [projeto no Wokwi](https://wokwi.com/projects/399769764705866753).
+- Iniciar a simulação no botão 'Start the simulation'.
+- Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade.
+- Observar os dados apresentados no LCD_I2C.
 
 ### 🖥️ ArduinoIDE
 - Monte o circuito em uma placa ArduinoUNO, conectando cada pino dos componentes em suas respectivas entradas.
 - Carregue o código deste repositório através do ArduinoIDE.
-- Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade
-- Observar os dados apresentados no LCD_I2C
+- Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade.
+- Observar os dados apresentados no LCD_I2C.
 
 ## 🧠 Explicando o Código
 
