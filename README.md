@@ -1,6 +1,7 @@
 # 🏎️ CHALLENGE Mahindra
 
-[Projeto no Wokwi](https://wokwi.com/projects/400505923983816705)
+- ⚡ [Projeto no Wokwi](https://wokwi.com/projects/400505923983816705)
+- ▶️ [Vídeo de Explicação]()
 
 ## 🤖 Edge Computing & Computer Systems
 
@@ -27,7 +28,7 @@ Utilizaremos de um site intuitivo, customizável e imersivo para um melhor agrad
 Decidimos que, focar em estética, vínculo com corridas em cenários de rua, tecnologia e acessibilidade, seria o ideal para a popularização da Fórmula E no Brasil, visto que, o brasileiro se interessa por esses quatro pontos.
 No Brasil, no ano de 2022, a venda de veículos elétricos aumentou em 78%, com mais de 50 mil unidades vendidas, indicando que o brasileiro começa a aceitar o veículo elétrico.
 
-### ⚡ Visão geral em Edge Computing & Computer Systems
+### 🤖 Visão geral em Edge Computing & Computer Systems
 
 Para a matéria Edge Computing & Computer Systems
 
