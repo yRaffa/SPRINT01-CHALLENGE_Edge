@@ -17,8 +17,6 @@ Entrega da matéria Edge Computing & Computer Systems para a primeira Sprint da 
 
 ## 📕 Sobre o Projeto
 
-<img src="circuito.png"></img>
-
 ### ✨ Visão geral do projeto
 
 Este projeto refere-se ao site desenvolvido com o objetivo de popularizar e mostrar, de melhor forma, o que é a Fórmula-E, aqui, no Brasil.
@@ -30,7 +28,11 @@ No Brasil, no ano de 2022, a venda de veículos elétricos aumentou em 78%, com 
 
 ### 🤖 Visão geral em Edge Computing & Computer Systems
 
-Para a matéria Edge Computing & Computer Systems
+Este projeto consiste em um radar de velocidade, que mede a velocidade de um corpo ao passar por um ponto inicial até chegar a um ponto final, com o intuito de colher dados de corridas e treinos da Fórmula-E para usa-los em nosso site.
+
+### 🖼️ Print do circuito
+
+<img src="circuito.png"></img>
 
 ## 🔨 Ferramentas
 
@@ -54,10 +56,10 @@ Para a matéria Edge Computing & Computer Systems
 
 ### 🔌 Conexões dos Componentes
 
-- [LCD_I2C:](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004) Entradas analógicas A4 e A5 do arduino.
-- [1º Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 13 e 12, respectivamente para os pinos trigger e echo.
-- [2º Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 11 e 10, respectivamente para os pinos trigger e echo.
-- [LEDbar:](https://docs.wokwi.com/pt-BR/parts/wokwi-led-bar-graph) Entradas digitais 9, 8, 7, 6, 5, 4, 3 e 2, e entradas analógicas A3 e A2.
+- [LCD_I2C:](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004) Entradas analógicas A5 e A4 do arduino.
+- [1º Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 13 e 12 do arduino, respectivamente para os pinos trigger e echo.
+- [2º Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 11 e 10 do arduino, respectivamente para os pinos trigger e echo.
+- [LEDbar:](https://docs.wokwi.com/pt-BR/parts/wokwi-led-bar-graph) Entradas digitais 9, 8, 7, 6, 5, 4, 3 e 2, e entradas analógicas A3 e A2 do arduino.
 
 ## 📒 Instruções de Uso
 
