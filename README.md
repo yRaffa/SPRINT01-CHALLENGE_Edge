@@ -77,7 +77,7 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 
 ## 🧠 Explicando o Código
 
-### 📚 Incluir a seguinte biblioteca no projeto:
+### 📚 Incluindo biblioteca
 ``` c++
 #include <LiquidCrystal_I2C.h>
 ```
