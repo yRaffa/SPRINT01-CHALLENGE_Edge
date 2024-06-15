@@ -28,7 +28,7 @@ No Brasil, no ano de 2022, a venda de veículos elétricos aumentou em 78%, com 
 
 ### 🤖 Visão geral em Edge Computing & Computer Systems
 
-Este projeto consiste em um radar de velocidade, que mede a velocidade de um corpo ao passar por um ponto inicial até chegar a um ponto final, com o intuito de colher dados de corridas e treinos da Fórmula-E para usa-los em nosso site.
+Este projeto consiste em um radar de velocidade, que será utilizado para medir a velocidade de um corpo ao passar por um ponto inicial até chegar a um ponto final, com o intuito de colher dados de corridas e treinos da Fórmula-E para usa-los em nosso site.
 
 ### 🖼️ Print do circuito
 
