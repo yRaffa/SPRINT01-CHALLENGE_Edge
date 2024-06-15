@@ -63,13 +63,13 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 
 ## 📒 Instruções de Uso
 
-### 💻 Simulador
+### 🖥️ Simulador
 - Abrir o [projeto no Wokwi](https://wokwi.com/projects/399769764705866753)
 - Iniciar a simulação no botão 'Start the simulation'
 - Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade
 - Observar os dados apresentados no LCD_I2C
 
-### 💻 ArduinoIDE
+### 🖥️ ArduinoIDE
 - Monte o circuito em uma placa ArduinoUNO, conectando cada pino dos componentes em suas respectivas entradas.
 - Carregue o código deste repositório através do ArduinoIDE.
 - Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade
@@ -77,12 +77,12 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 
 ## 🧠 Explicando o Código
 
-- Incluir a seguinte biblioteca no projeto:
+### 📚 Incluir a seguinte biblioteca no projeto:
 ``` c++
 #include <LiquidCrystal_I2C.h>
 ```
 
-- Declarando variáveis para cada compenente utilizado
+### 📝 Declarando variáveis para cada compenente utilizado
 ``` c++
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
@@ -95,7 +95,7 @@ int ledBar[] = {9, 8, 7, 6, 5, 4, 3, 2, A3, A2};
 int numLeds = 10;
 ```
 
-- Declarando variáveis do sistema.
+### 📝 Declarando variáveis do sistema.
 ``` c++
 float leitura01 = 0;
 float leitura02 = 0;
@@ -113,9 +113,8 @@ float velocidadeMps = 0;
 float velocidadeKph = 0;
 ```
 
-- void setup() do arduino:
-
-Inicializa e define os pinModes dos componentes.
+void setup() do arduino:
+### 🔰 Inicializa e define os pinModes dos componentes.
 ``` c++
 void setup() {
   Serial.begin(9600);
@@ -136,9 +135,8 @@ void setup() {
 }
 ```
 
-- void loop() do arduino:
-
-Inicia a captação e conversão de dados do primeiro sensor de distancia ultrasonico.
+void loop() do arduino:
+### ▶️ Inicia a captação e conversão de dados do primeiro sensor de distancia ultrasonico.
 ``` c++
 void loop() {
   digitalWrite(trigger01, LOW);
@@ -152,7 +150,7 @@ void loop() {
   cm01 = leitura01 / 58.0;
 ```
 
-- Bloco de comando para iniciar a medição do primeiro sensor de distancia ultrasonico.
+### 🔎 Bloco de comando para iniciar a medição do primeiro sensor de distancia ultrasonico.
 ``` c++
   if(cm01 <= 300 && !leitura01Iniciou) {
     delay(50);
@@ -164,7 +162,7 @@ void loop() {
   }
 ```
 
-- Inicia a captação e conversão de dados do segundo sensor de distancia ultrasonico.
+### ▶️ Inicia a captação e conversão de dados do segundo sensor de distancia ultrasonico.
 ``` c++
   digitalWrite(trigger02, LOW);
   delayMicroseconds(5);
@@ -177,7 +175,7 @@ void loop() {
   cm02 = leitura02 / 58.0;
 ```
 
-- Bloco de comando para iniciar a medição do segundo sensor de distancia ultrasonico.
+### 🔎 Bloco de comando para iniciar a medição do segundo sensor de distancia ultrasonico.
 ``` c++
   if(cm02 <= 300 && leitura01Iniciou && !leitura02Iniciou) {
     delay(50);
@@ -187,7 +185,7 @@ void loop() {
       Serial.println("Leitura do Sensor 02 Iniciada");
 ```
 
-- Calculando intervalo de tempo e velocidade, e exibindo dados no LCD
+### ⏱️ Calculando intervalo de tempo e velocidade, e exibindo dados no LCD
 ``` c++
       intervalo = (tempoFinal - tempoInicial) / 1000.0;
       Serial.print("Intervalo de Tempo: ");
@@ -215,7 +213,7 @@ void loop() {
   }
 ```
 
-- Bloco de verificação para ligar a LEDbar
+### 🚦 Bloco de verificação para ligar a LEDbar
 ``` c++
   if(velocidadeMps != 0 && velocidadeKph != 0) {
     ligarLEDbar(velocidadeKph, ledBar);
@@ -224,7 +222,7 @@ void loop() {
 }
 ```
 
-- Função para apagar uma linha do LCD.
+### 💻 Função para apagar uma linha do LCD.
 ``` c++
 void apagarLinha(int coluna, int linha) {
   lcd.setCursor(coluna, linha);
@@ -234,7 +232,7 @@ void apagarLinha(int coluna, int linha) {
 }
 ```
 
-- Função para exibir informações no LCD.
+### 💻 Função para exibir informações no LCD.
 ``` c++
 void exibirLCD(int coluna, int linha, float variavel, String mensagem, String medida) {
   apagarLinha(coluna, linha);
@@ -247,7 +245,7 @@ void exibirLCD(int coluna, int linha, float variavel, String mensagem, String me
 }
 ```
 
-- Função para ligar a LEDbar.
+### 🚦 Função para ligar a LEDbar.
 ``` c++
 void ligarLEDbar(float variavel, int lista[]) {
   if(variavel >= 300) {
