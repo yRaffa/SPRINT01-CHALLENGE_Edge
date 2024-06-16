@@ -70,7 +70,7 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 - Observar os dados apresentados no [LCD_I2C:](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004).
 
 ### 🖥️ ArduinoIDE
-- Monte o circuito em uma placa [Arduino UNO](https://docs.wokwi.com/pt-BR/parts/wokwi-arduino-uno), conectando cada pino dos componentes em suas respectivas entradas.
+- Monte o circuito em uma placa [Arduino UNO](https://docs.arduino.cc/hardware/uno-rev3/), conectando cada pino dos componentes em suas respectivas entradas.
 - Carregue o código deste repositório através do [ArduinoIDE](https://www.arduino.cc/en/software).
 - Altere os valores dos [sensores de distância ultrassônico](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04), para iniciar a medição da velocidade.
 - Observar os dados apresentados no [LCD_I2C](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004).
