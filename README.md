@@ -66,14 +66,14 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 ### 🖥️ Simulador
 - Abrir o [projeto no Wokwi](https://wokwi.com/projects/399769764705866753).
 - Iniciar a simulação no botão 'Start the simulation'.
-- Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade.
-- Observar os dados apresentados no LCD_I2C.
+- Altere os valores dos [sensores de distância ultrassônico](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04), para iniciar a medição da velocidade.
+- Observar os dados apresentados no [LCD_I2C:](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004).
 
 ### 🖥️ ArduinoIDE
-- Monte o circuito em uma placa ArduinoUNO, conectando cada pino dos componentes em suas respectivas entradas.
-- Carregue o código deste repositório através do ArduinoIDE.
-- Altere os valores dos sensores de distância ultrassônico HC-SR04, para iniciar a medição da velocidade.
-- Observar os dados apresentados no LCD_I2C.
+- Monte o circuito em uma placa [Arduino UNO](https://docs.wokwi.com/pt-BR/parts/wokwi-arduino-uno), conectando cada pino dos componentes em suas respectivas entradas.
+- Carregue o código deste repositório através do [ArduinoIDE](https://www.arduino.cc/en/software).
+- Altere os valores dos [sensores de distância ultrassônico](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04), para iniciar a medição da velocidade.
+- Observar os dados apresentados no [LCD_I2C](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004).
 
 ## 🧠 Explicando o Código
 
