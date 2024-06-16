@@ -1,7 +1,7 @@
 # 🏎️ CHALLENGE Mahindra
 
 #### ⚡ [Projeto no Wokwi](https://wokwi.com/projects/400505923983816705)
-#### 🎞️ [Vídeo de Explicação]()
+#### 🎞️ [Vídeo de Explicação](https://drive.google.com/file/d/1gynKgt2kLr3sE5yXJVWUoswKhCL6BWoP/view?usp=sharing)
 
 ## 🤖 Edge Computing & Computer Systems
 
