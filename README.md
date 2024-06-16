@@ -56,6 +56,7 @@ Este projeto consiste em um radar de velocidade, que será utilizado para medir 
 
 ### 🔌 Conexões dos Componentes
 
+- Ligue o GND e 5V em seus respectivos pinos de cada componente.
 - [LCD_I2C:](https://docs.wokwi.com/pt-BR/parts/wokwi-lcd2004) Entradas analógicas A5 e A4 do arduino, respectivamente para os pinos SCL e SDA.
 - 1º [Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 13 e 12 do arduino, respectivamente para os pinos trigger e echo.
 - 2º [Sensor de Distância Ultrassônico HC-SR04:](https://docs.wokwi.com/pt-BR/parts/wokwi-hc-sr04) Entradas digitais 11 e 10 do arduino, respectivamente para os pinos trigger e echo.
